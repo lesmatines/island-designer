@@ -1,0 +1,41 @@
+{
+  "name": "island-designer",
+  "version": "0.0.1",
+  "description": "A small tool for players designing their island in Animal Crossing - New Horizons",
+  "main": "dist/index.js",
+  "types": "dist/index.d.ts",
+  "scripts": {
+    "build": "gulp",
+    "dev": "webpack-dev-server --watch",
+    "package": "gulp build-watch",
+    "lint": "tslint -c tslint.json 'src/**/*.ts'",
+    "lint-fix": "tslint -c tslint.json --fix 'src/**/*.ts'",
+    "add-tag": "node scripts/tag.js --package ./package.json --changelog ./CHANGELOG.md"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git@github.com:lesmatines/island-designer.git"
+  },
+  "dependencies": {
+    "three": "0.116.0"
+  },
+  "devDependencies": {
+    "tslint": "^5.12.1",
+    "tslint-microsoft-contrib": "^6.0.0",
+    "gulp": "^4.0.0",
+    "gulp-typescript": "^5.0.1",
+    "progress-bar-webpack-plugin": "^1.11.0",
+    "ts-loader": "^5.3.1",
+    "typescript": "^3.2.2",
+    "webpack": "^4.27.1",
+    "webpack-cli": "^3.1.2",
+    "webpack-dev-server": "^3.1.10"
+  },
+  "keywords": [
+    "animal crossing",
+    "new horizons",
+    "island designer"
+  ],
+  "author": "Sirius",
+  "license": "UNLICENSED"
+}

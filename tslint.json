@@ -1,0 +1,77 @@
+{
+  "rulesDirectory": [
+    "node_modules/tslint-microsoft-contrib"
+  ],
+  "linterOptions": {
+    "exclude": [
+      "./testbed/Main.ts"
+    ]
+  },
+  "extends": [
+    "@qunhe/tslint-rules/recommended"
+  ],
+  "rules": {
+    "space-before-function-paren": false,
+    "space-within-parens": true,
+    "no-angle-bracket-type-assertion": false,
+    "no-consecutive-blank-lines": true,
+    "callable-types": false,
+    "unified-signatures": false,
+    "no-string-throw": false,
+    "no-bitwise": false,
+    "ban-types": false,
+    "no-unnecessary-initializer": false,
+    "semicolon": true,
+    "quotemark": [
+      true,
+      "single"
+    ],
+    "typedef": [
+      true,
+      "call-signature"
+    ],
+    "typedef-whitespace": true,
+    "max-line-length": {
+      "options": 200
+    },
+    "arrow-parens": false,
+    "interface-name": [
+      false,
+      "never-prefix"
+    ],
+    "object-literal-sort-keys": false,
+    "object-literal-shorthand": false,
+    "member-ordering": [
+      false
+    ],
+    "variable-name": false,
+    "no-var-requires": false,
+    "max-classes-per-file": false,
+    "only-arrow-functions": [
+      false
+    ],
+    "one-line": [
+      true
+    ],
+    "no-reference": false,
+    "trailing-comma": [
+      false
+    ],
+    "no-empty": false,
+    "prefer-const": true,
+    "prefer-for-of": false,
+    "no-namespace": [
+      false,
+      "allow-declarations"
+    ],
+    "no-console": [
+      true,
+      "debug",
+      "info",
+      "log",
+      "time",
+      "timeEnd",
+      "trace"
+    ]
+  }
+}

@@ -1,0 +1,32 @@
+# nodejs objects
+node_modules
+
+# build
+build
+
+# log
+*.log
+
+# system file
+.DS_Store
+
+# extra
+.yarnclean
+.history
+.resolve
+.cache-loader
+.sass-cache
+package-load.json
+
+# ide
+.vscode
+
+# package source
+/server/main.bundle.js
+/server/main.bundle.js.map
+
+# test data
+!/server/data/design_01
+!/server/data/design_02
+/server/ksf
+/server/background

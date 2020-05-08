@@ -1,0 +1,14 @@
+{
+  "compilerOptions": {
+    "target": "esnext",
+    "module": "esnext",
+    "removeComments": true,
+    "moduleResolution": "node",
+    "strictNullChecks": true,
+    "lib": ["esnext", "dom"],
+    "declaration": true,
+    "outDir": "build/src",
+    "experimentalDecorators": true
+  },
+  "include": ["src/**/*.ts", "app/main.ts"]
+}
